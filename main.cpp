@@ -69,7 +69,7 @@ int main() {
         cerr << "Error: Unable to access the webcam" << endl;
         return -1;
     }
-    // Paths to the ONNX model, input image, and class labels
+    // Paths to the ONNX model and class labels
     string onnxModelPath = "/home/yacine/path/to/model.onnx";
     string labelsPath = "/home/yacine/path/to/classes.txt";
 
